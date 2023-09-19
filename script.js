@@ -11,20 +11,14 @@ function toggleMode() {
   //substituir imagem
   if (html.classList.contains("light")) {
     // se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "./assets/avatar-light.png") //ajustar um atributo, mudei o valor de src
+    img.setAttribute("src", "./assets/round_profile2.png") //ajustar um atributo, mudei o valor de src
 
-    img.setAttribute(
-      "alt",
-      "Foto de Mayk Brito sorrindo com óculos escuros e jaqueta"
-    )
+    img.setAttribute("alt", "Foto de Hebert Victor com gola de camisa social")
   }
   // sem light mode, mantem imagem padrão
   else {
-    img.setAttribute("src", "./assets/avatar.png ")
+    img.setAttribute("src", "./assets/round_profile.png")
 
-    img.setAttribute(
-      "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo."
-    )
+    img.setAttribute("alt", "Foto de hebert com casaco amarelo.")
   }
 }
